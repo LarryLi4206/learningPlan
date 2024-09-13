@@ -1,12 +1,14 @@
 #### 我的程式學習計畫&進度
 ##### 任務列表測試
-
- -[x] \(Test)Test
-
- -[ ] \Test
-
- -[ ] \TEST
-
+- [x] \(Test)Test
+- [ ] Test :tada:
+- [ ] TEST
+<!--註解-->
+<!--
+- [x] #739\
+- [ ] https://github.com/octo-org/octo-repo/issues/740\
+- [ ] Add delight to the experience when all tasks are complete :tada:
+-->
 <h1>JAVA</h1>
 
 + <p>基本</p>
