@@ -23,7 +23,8 @@
 <p>
   
 學習網址1.[W3school](https://www.w3schools.com/)
-GitHub使用語法:Makedown
+
+[GitHub使用語法:Makedown](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 </p>
 
 
