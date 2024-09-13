@@ -7,6 +7,11 @@
 <p>MVC</p>
 
 <h1>SQL</h1>
+<p>Create</p>
+<p>read</p>
+<p>update</p>
+<p>delete</p>
+
 
 <h1>JAVAWeb</h1>
 
