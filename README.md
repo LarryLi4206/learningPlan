@@ -46,7 +46,10 @@
 
 [GitHub使用語法:Makedown](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 </p>
+練功:
 
+[高中生解題系統](https://zerojudge.tw/Problems?tabid=CONTEST#tab01)
+[LeetCode](https://leetcode.com/) 
 
 
 
