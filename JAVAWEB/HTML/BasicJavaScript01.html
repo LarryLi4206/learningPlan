@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Html輸入與資料型態</title>
+</head>
+
+<body>
+    <h2>JavaScript接收及改值</h2>
+    <form>
+        輸入A:<input id="input1" type="text" value="10"><br>
+        輸入B:<input id="input2" type="text" value="20"><br>
+    </form>
+    <h3>確認接收值</h3>
+    <button onclick=" methondA()">顯示值</button>
+    <button onclick="methondB()">更改值</button>
+        <script>
+            function methondA() {
+                var a = document.getElementById("input1").value;
+                var b = document.getElementById("input2").value;
+
+                alert("輸入A=" + a);
+                alert("輸入B=" + b);
+            };
+            function methondB() {
+                document.getElementById("input1").value = prompt("輸入A=");
+                document.getElementById("input2").value = prompt("輸入B=");
+               
+            };
+
+        </script>
+<br>=====================================================================
+    <h3>輸入的資料型態</h3>
+    <form>
+            輸入C:<input id="input3" type="text" value="10"><br>
+            <br>
+            顯示輸入C資料型態:<input id="input4" type="text"><br>
+    </form>
+    <button onclick=" methondC()">顯示資料型態</button>
+
+    <script>
+            function methondC() {
+                var a = document.getElementById("input3").value;
+                document.getElementById("input4").value=typeof a;
+            };
+            
+        </script>
+<br>=====================================================================
+    <h3>輸入的資料型態轉換方式與運算</h3>
+    <form id="cal">
+            輸入D:<input id="input5" type="text" value="10"><br>
+            輸入E:<input id="input6" type="text" value="10"><br>  
+            <br>
+            基本運算元使用<br>
+            1.顯示輸入D、E資料型態:<input id="input7" type="text"><br>
+            2.D == E:<input id="input8" type="text"><br>
+            3.D != E:<input id="input9" type="text"><br>
+            4.D === E:<input id="input10" type="text"><br>
+            5.D !== E:<input id="input11" type="text"><br>
+            6.D > E:<input id="input12" type="text"><br>
+            7.D >= E:<input id="input13" type="text"><br>
+            8.D < E:<input id="input14" type="text"><br>
+            9.D <= E:<input id="input15" type="text"><br>
+            10.D + E:<input id="input16" type="text"><br>
+
+
+    </form>
+    <button onclick=" methondD()">顯示資料型態</button>
+<script>
+    function methondD(){
+
+        var d = document.getElementById("input5").value;
+        //var e = document.getElementById("input6").value;
+
+        //var d = parseInt(document.getElementById("input5").value);
+        var e = parseInt(document.getElementById("input6").value);
+
+        document.getElementById("input7").value=typeof d+","+typeof e;
+        document.getElementById("input8").value=d==e;
+        document.getElementById("input9").value=d!=e;
+        document.getElementById("input10").value=d===e;
+        document.getElementById("input11").value=d!==e;
+        document.getElementById("input12").value=d>e;
+        document.getElementById("input13").value=d>=e;
+        document.getElementById("input14").value=d<e;
+        document.getElementById("input15").value=d<=e;
+        document.getElementById("input16").value=d+e;
+        var cal=document.getElementById("cal");
+        c_div=document.createElement("p");
+        c_div.innerHTML="運算子基本和JAVA大同小異，第2點和第4點要注意<br>"+
+        "==不比較資料型態,===資料型態和值必須相同";
+        cal.appendChild(c_div);
+        
+
+    }
+
+
+</script>
+</body>
+
+
+
+
+</html>
